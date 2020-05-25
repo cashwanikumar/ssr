@@ -22,9 +22,3 @@ script:
   - yarn run build
   - echo Building the server side app...
   - yarn run build-server-prod
-deploy:
-  provider: heroku
-  api_key:
-    secure: 69a83995-2f53-44e8-9131-a7b03d587a36
-    app: 
-      master: ssr-ashwani
