@@ -6,7 +6,6 @@ import styled from "styled-components";
 import TriangleIcon from "../../assets/triangle.png";
 import { getUrl } from "../../service/helper";
 
-
 TimeAgo.addLocale(en);
 
 const LightWrapper = styled.span`
