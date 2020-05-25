@@ -28,7 +28,8 @@
     "dev:start": "nodemon ./server-build/index.js",
     "dev": "npm-run-all --parallel build dev:*",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "prebuild": "yarn add webpack-cli -g",
+    "build": "react-scripts build && NODE_ENV=production webpack --config webpack.server.js --mode=production",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
