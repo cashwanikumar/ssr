@@ -5,6 +5,5 @@ git clone https://github.com/cashwanikumar/ssr.git
 yarn
 yarn run dev
 
-# for production
+# for production build
 yarn build
-yarn build build-server-prod
